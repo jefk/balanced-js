@@ -522,7 +522,7 @@ if(typeof JSON !== 'object') {
     jsonp('https://js.balancedpayments.com/json2.js');
 }
 
-var balanced = global.balanced = {
+var balanced = {
     card: cc,
     bankAccount: ba,
     externalAccount: ea,
